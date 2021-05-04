@@ -6,7 +6,7 @@ import { fetchTokenDecimals, fetchTokenName, fetchTokenSymbol } from "./utils/be
 
 let ZERO_BI = BigInt.fromI32(0);
 let ONE_BI = BigInt.fromI32(1);
-let FACTORY_ADDRESS = "0xca143ce32fe78f1f7019d7d551a6402fc5350c73";
+let FACTORY_ADDRESS = "0x877Fe7F4e22e21bE397Cd9364fAFd4aF4E15Edb6";
 
 export function handlePairCreated(event: PairCreated): void {
   let factory = Factory.load(FACTORY_ADDRESS);
